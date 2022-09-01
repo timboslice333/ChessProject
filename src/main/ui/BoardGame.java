@@ -9,8 +9,8 @@ import java.io.IOException;
 
 // a general gameboard to play chess or ticktacktoe
 public class BoardGame extends JFrame {
-    private static final String JSON_STORE_CHESS = "./data/chessBoard.json";
-    private static final String JSON_STORE_TIC = "./data/ticBoard.json";
+    private static final String JSON_STORE_CHESS = "./ChessProject-main/data/chessBoard.json";
+    private static final String JSON_STORE_TIC = "./ChessProject-main/data/ticBoard.json";
     private JsonReaderChess jsonReaderChess;
     private JsonReaderTic jsonReaderTic;
     private JPanel mainPanel;

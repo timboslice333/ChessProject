@@ -9,9 +9,9 @@ public class Bishop extends Piece {
     public Bishop(boolean isWhite) {
         this.isWhite = isWhite;
         if (isWhite) {
-            icon = new ImageIcon("./data/chessPiecesImages/Chess_blt60.png");
+            icon = new ImageIcon("./ChessProject-main/data/chessPiecesImages/Chess_blt60.png");
         } else {
-            icon = new ImageIcon("./data/chessPiecesImages/Chess_bdt60.png");
+            icon = new ImageIcon("./ChessProject-main/data/chessPiecesImages/Chess_bdt60.png");
         }
     }
 

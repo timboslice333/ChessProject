@@ -9,9 +9,9 @@ public class Pawn extends Piece {
     public Pawn(boolean isWhite) {
         this.isWhite = isWhite;
         if (isWhite) {
-            icon = new ImageIcon("./data/chessPiecesImages/Chess_plt60.png");
+            icon = new ImageIcon("./ChessProject-main/data/chessPiecesImages/Chess_plt60.png");
         } else {
-            icon = new ImageIcon("./data/chessPiecesImages/Chess_pdt60.png");
+            icon = new ImageIcon("./ChessProject-main/data/chessPiecesImages/Chess_pdt60.png");
         }
     }
 

@@ -10,7 +10,7 @@ import java.io.FileNotFoundException;
 // a ticktacktoe game to play the game
 public class TickTackToeGame {
     private JsonWriterTic jsonWriter;
-    private static final String JSON_STORE_TIC = "./data/ticBoard.json";
+    private static final String JSON_STORE_TIC = "./ChessProject-main/data/ticBoard.json";
     private static final Dimension TICKTACKTOE_DIMENSION = new Dimension(350,300);
     private JFrame ticFrame;
     private JPanel boardPanel;

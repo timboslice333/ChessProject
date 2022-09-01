@@ -9,9 +9,9 @@ public class Rook extends Piece {
     public Rook(boolean isWhite) {
         this.isWhite = isWhite;
         if (isWhite) {
-            icon = new ImageIcon("./data/chessPiecesImages/Chess_rlt60.png");
+            icon = new ImageIcon("./ChessProject-main/data/chessPiecesImages/Chess_rlt60.png");
         } else {
-            icon = new ImageIcon("./data/chessPiecesImages/Chess_rdt60.png");
+            icon = new ImageIcon("./ChessProject-main/data/chessPiecesImages/Chess_rdt60.png");
         }
     }
 

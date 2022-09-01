@@ -9,9 +9,9 @@ public class King extends Piece {
     public King(boolean isWhite) {
         this.isWhite = isWhite;
         if (isWhite) {
-            icon = new ImageIcon("./data/chessPiecesImages/Chess_klt60.png");
+            icon = new ImageIcon("./ChessProject-main/data/chessPiecesImages/Chess_klt60.png");
         } else {
-            icon = new ImageIcon("./data/chessPiecesImages/Chess_kdt60.png");
+            icon = new ImageIcon("./ChessProject-main/data/chessPiecesImages/Chess_kdt60.png");
         }
     }
 

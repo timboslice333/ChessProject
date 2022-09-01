@@ -1,7 +1,5 @@
 package model.chess;
 
-import persistence.chess.JsonWriterChess;
-
 import javax.swing.*;
 
 // Knight piece on a chessboard with a color
@@ -11,9 +9,9 @@ public class Knight extends Piece {
     public Knight(boolean isWhite) {
         this.isWhite = isWhite;
         if (isWhite) {
-            icon = new ImageIcon("./data/chessPiecesImages/Chess_nlt60.png");
+            icon = new ImageIcon("./ChessProject-main/data/chessPiecesImages/Chess_nlt60.png");
         } else {
-            icon = new ImageIcon("./data/chessPiecesImages/Chess_ndt60.png");
+            icon = new ImageIcon("./ChessProject-main/data/chessPiecesImages/Chess_ndt60.png");
         }
     }
 

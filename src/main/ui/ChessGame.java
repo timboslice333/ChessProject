@@ -15,7 +15,7 @@ import java.util.Iterator;
 
 // a chessgame to play the game
 public class ChessGame extends JFrame {
-    private static final String JSON_STORE_CHESS = "./data/chessBoard.json";
+    private static final String JSON_STORE_CHESS = "./ChessProject-main/data/chessBoard.json";
     private static final Dimension CHESS_MIN_DIMENSION = new Dimension(800,640);
     private JPanel informationPanel;
     private JsonWriterChess jsonWriter;

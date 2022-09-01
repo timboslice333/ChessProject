@@ -9,9 +9,9 @@ public class Queen extends Piece {
     public Queen(boolean isWhite) {
         this.isWhite = isWhite;
         if (isWhite) {
-            icon = new ImageIcon("./data/chessPiecesImages/Chess_qlt60.png");
+            icon = new ImageIcon("./ChessProject-main/data/chessPiecesImages/Chess_qlt60.png");
         } else {
-            icon = new ImageIcon("./data/chessPiecesImages/Chess_qdt60.png");
+            icon = new ImageIcon("./ChessProject-main/data/chessPiecesImages/Chess_qdt60.png");
         }
     }
 
